@@ -80,7 +80,7 @@ margin-left: 70px;
     position: absolute;
     margin-left: 60px;
     
-    padding: 16px 60px 16px 60px;    
+    padding: 14px 60px 14px 60px;    
     border-radius: 8px;
     border-color: var(--Grey);
     margin-top: -140px;
@@ -94,7 +94,7 @@ margin-left: 70px;
 .email button{
     position: absolute;
     margin-top: -80px;
-    padding: 12px 49px 12px 49px;
+    padding: 12px 40px 12px 40px;
     margin-left: 60px;
     border-radius: 8px;
     color: var(--White);
@@ -144,8 +144,8 @@ letter-spacing: 2px;
    color: var(--Charcoal-Grey);
 }
 #second-container button{
-    height: 49px;
-width: 380px;
+height: 49px;
+width: 373px;
 color: var(--White);
 cursor: pointer;
 border-radius: 5px;
