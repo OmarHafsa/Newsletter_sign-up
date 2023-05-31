@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:wght@400;700&display=swap');
+
+:root{
+/*fonts*/
+--font-family:'Roboto', sans-serif;
+--font-size:16px;
+--font-weight1:400px;
+--font-weight2:700px;
+/*colors*/
+--Tomato: hsl(4, 100%, 67%);
+--Dark-Slate-Grey: hsl(234, 29%, 20%);
+--Charcoal-Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+   font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+body{
+    
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+   background-color: var(--Charcoal-Grey);
+}
+
+#big-container{
+    background-color: var(--White);
+    height: 540px;
+    width: 900px;
+    margin-top: 90px; 
+    margin-left: 220px;
+    border-radius: 20px;
+}
+.mobile{
+    display: none;
+}
+.stay .h1{
+    position: relative;
+    display: inline;
+    font-size: 49px;
+    color: var(--Dark-Slate-Grey);
+    top: 70px;
+    margin-left: 70px;
+}
+.stay .paragraph{
+margin-top: 90px;
+width: 400px;
+margin-left: 70px;
+}
+
+#big-container .paragraphs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+.paragraphs .row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    color: var(--Dark-Slate-Grey);
+}
+.row p{
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+.signUp{
+    margin-top: -290px;
+    height: 490px;
+    margin-left: 550px;
+}
+.email label{
+    margin-top: -180px;
+    position: absolute;
+    color: var(--Dark-Slate-Grey);
+    font-size: var(--font-size);
+    margin-left: 60px;
+}
+.email input{
+    position: absolute;
+    margin-left: 60px;
+    
+    padding: 16px 60px 16px 60px;    
+    border-radius: 8px;
+    border-color: var(--Grey);
+    margin-top: -140px;
+}
+ .email.success input{
+    border-color: #2ecc71;
+}
+.email.erreur input{
+    border-color: #e74c3c;
+}
+.email button{
+    position: absolute;
+    margin-top: -80px;
+    padding: 12px 49px 12px 49px;
+    margin-left: 60px;
+    border-radius: 8px;
+    color: var(--White);
+    background-image:linear-gradient(45deg,#fd5d83,#ff6257);
+    border-color: transparent;
+    cursor: pointer;
+}
+ .email small{
+    color: red;
+    margin-top: -175px;
+    position: absolute;
+    margin-left: 240px;
+    visibility: hidden;
+}
+.email.erreur small{
+    visibility: visible;
+}
+#second-container{   
+ background-color:var(--White);
+ width: 450px;
+ height: 420px;
+ border-radius: 20px;
+ margin-top: 100px;
+ margin-left: 400px;
+}
+#second-container span{
+    font-weight: bolder;
+    color: var(--Dark-Slate-Grey);
+}
+#second-container img{
+    width: 50px;
+    height: 50px;
+   margin-top: 20px;
+   margin-left: 30px;
+}
+#second-container h1{
+color: var(--Dark-Slate-Grey);
+font-size: 40px;
+margin-left: 30px;
+width: 300px;
+letter-spacing: 2px;
+}
+#second-container p{
+    width: 420px;
+    margin-left: 30px;
+    line-height: 28px;
+   color: var(--Charcoal-Grey);
+}
+#second-container button{
+    height: 49px;
+width: 380px;
+color: var(--White);
+cursor: pointer;
+border-radius: 5px;
+background-image: linear-gradient(45deg,#FF527B,#FF6A3A);
+margin-left: 25px;
+margin-top: 10px;
+border: none;
+}
+#second-container button:hover{
+box-shadow: 0px 8px 21px 0px var(--Tomato);
+}
+@media (max-width: 600px) {
+body{
+    background-color: var(--White);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+.mobile{
+  display: block;
+  margin-top: -612px;
+  margin-left: -8px;
+}
+.signUp{
+    display: none;
+}
+.stay .h1{
+    margin-top: 250px;
+    position: absolute;
+    margin-left: -200px;
+}
+.stay .paragraph{
+    margin-top: 310px;
+    position: absolute;
+   width: 350px;
+   margin-left: -215px;
+   font-size: 17px;
+   line-height: 28px;
+}
+#big-container .paragraphs{
+    margin-left: -220px;
+    margin-top: 370px;
+    position: absolute;
+    width: 320px;
+
+}
+.email small{
+    margin-top: 560px;
+    margin-left: -72px;
+}
+.email label{
+    margin-top: 560px;
+    margin-left: -200px;
+    font-weight: bolder;
+}
+.email input{
+    margin-top: 600px;
+    margin-left: -220px;
+    padding: 16px 60px 16px 60px;
+}
+.email button{
+    margin-top: 680px;
+    margin-left: -221px;
+    padding: 16px 39px 16px 39px;
+    background-color: var(--Dark-Slate-Grey);
+    background-image: none;
+}
+#second-container img{
+margin-left: -390px;
+height: 70px;
+width: 70px;
+}
+#second-container h1{
+    margin-left: -390px;
+}
+#second-container p{
+    margin-left: -390px;
+    width: 370px;
+}
+#second-container button{
+    margin-left: -405px;
+    height: 50px;
+    width: 320px;
+    margin-top: 200px;
+    background-image: none;
+    background-color: var(--Dark-Slate-Grey);
+}
+
+}

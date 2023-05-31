@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+ <div id="big-container">
+      <div class="stay">
+         <h1 class="h1">stay updated</h1>
+         <p class="paragraph">Join 60,000+ product managers receiving monthly updates on :</p>
+      </div>
+      <div class="paragraphs">
+        <div class="row">
+          <img src="./assets/images/icon-list.svg" alt="">
+           <p>
+             Product discovery and building what matters
+           </p>
+          </div>
+         <div class="row">
+           <img src="./assets/images/icon-list.svg" alt="">
+             <p>
+              Measuring to ensure updates are a success
+             </p>
+          </div>
+         <div class="row">
+            <img src="./assets/images/icon-list.svg" alt="">
+            <p>
+              And much more!
+             </p>
+        </div>
+         <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" class="mobile">
+
+      </div>
+       <img class="signUp" src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+    <form action="#" id="form">
+     <div class="email">
+       <label id="email-label">Email address</label>
+       <input type="text" id="email-input" placeholder="email@company.com">
+       <button >Subscribe to monthly newsletter</button>
+       <small id="small">erreur message</small>
+    </form>
+  </div>
+</div>
+<div id="second-container">
+        <img src="./assets/images/icon-success.svg" alt="">
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <span id="success-result">youremail@yourcompany.com</span>. 
+        .Please open it and click the button inside to confirm your subscription. 
+        </p>
+       <button id="btn">Dismiss message</button>
+</div> 
+
+<script src="app.js"></script>
+</body>
+</html>
