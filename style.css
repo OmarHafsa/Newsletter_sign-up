@@ -79,8 +79,7 @@ margin-left: 70px;
 .email input{
     position: absolute;
     margin-left: 60px;
-    
-    padding: 16px 60px 16px 60px;    
+    padding: 14px 60px 14px 60px;    
     border-radius: 8px;
     border-color: var(--Grey);
     margin-top: -140px;
@@ -94,7 +93,7 @@ margin-left: 70px;
 .email button{
     position: absolute;
     margin-top: -80px;
-    padding: 12px 49px 12px 49px;
+    padding: 12px 40px 12px 40px;
     margin-left: 60px;
     border-radius: 8px;
     color: var(--White);
@@ -232,5 +231,4 @@ width: 70px;
     background-image: none;
     background-color: var(--Dark-Slate-Grey);
 }
-
 }
